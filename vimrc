@@ -3,6 +3,7 @@ syntax on
 filetype plugin indent on
 colorscheme ir_black
 set incsearch
+set hlsearch
 set number
 set tabstop=2
 set shiftwidth=2
