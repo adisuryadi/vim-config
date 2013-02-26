@@ -22,3 +22,9 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = git://github.com/honza/snipmate-snippets.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = git://github.com/groenewege/vim-less.git
+[submodule "bundle/aspnetcs"]
+	path = bundle/aspnetcs
+	url = git://github.com/vim-scripts/aspnetcs.git
