@@ -16,3 +16,8 @@ if has("autocmd")
   au InsertLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape underline"
   au VimLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape underline"
 endif
+vmap > >gv
+vmap < <gv
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+
