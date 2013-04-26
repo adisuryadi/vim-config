@@ -43,6 +43,9 @@
 [submodule "bundle/vim-javascript-syntax"]
 	path = bundle/vim-javascript-syntax
 	url = git://github.com/jelera/vim-javascript-syntax.git
-[submodule "bundle/indentconsistencycop"]
-	path = bundle/indentconsistencycop
-	url = git@github.com:vim-scripts/IndentConsistencyCop.git
+[submodule "bundle/vim-aspnetide"]
+	path = bundle/vim-aspnetide
+	url = git://github.com/bryanthankins/vim-aspnetide.git
+[submodule "bundle/vim-shell"]
+	path = bundle/vim-shell
+	url = git://github.com/xolox/vim-shell.git
