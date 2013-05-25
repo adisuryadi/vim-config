@@ -3,7 +3,8 @@ Helptags
 syntax on
 "filetype plugin indent on
 filetype plugin on
-colorscheme ir_black
+"colorscheme ir_black
+colorscheme vividchalk
 set autoindent
 set incsearch
 set hlsearch
