@@ -21,6 +21,10 @@ set foldmethod=indent
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 
+let g:syntastic_javascript_checkers=['jshint']
+let g:syntastic_coffeescript_checkers=['coffeelint']
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 "let g:ctrlp_custom_ignore = {
 "  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
