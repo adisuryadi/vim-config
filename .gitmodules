@@ -58,3 +58,6 @@
 [submodule "bundle/IndentConsistencyCop"]
 	path = bundle/IndentConsistencyCop
 	url = git://github.com/vim-scripts/IndentConsistencyCop.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
