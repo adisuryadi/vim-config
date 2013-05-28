@@ -49,3 +49,6 @@
 [submodule "bundle/vim-shell"]
 	path = bundle/vim-shell
 	url = git://github.com/xolox/vim-shell.git
+[submodule "bundle/IndentConsistencyCop"]
+	path = bundle/IndentConsistencyCop
+	url = git://github.com/vim-scripts/IndentConsistencyCop.git
