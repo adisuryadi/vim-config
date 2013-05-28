@@ -3,7 +3,8 @@ Helptags
 syntax on
 "filetype plugin indent on
 filetype plugin on
-colorscheme ir_black
+"colorscheme ir_black
+colorscheme vividchalk
 set autoindent
 set incsearch
 set hlsearch
@@ -19,6 +20,10 @@ set foldmethod=indent
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+
+let g:syntastic_javascript_checkers=['jshint']
+let g:syntastic_coffeescript_checkers=['coffeelint']
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 "let g:ctrlp_custom_ignore = {
