@@ -61,3 +61,6 @@
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = git://github.com/MarcWeber/ultisnips.git
+[submodule "bundle/vim-ultisnips-css"]
+	path = bundle/vim-ultisnips-css
+	url = git://github.com/rstacruz/vim-ultisnips-css.git
